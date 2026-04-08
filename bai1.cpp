@@ -3,5 +3,5 @@
 int main()
 {
     std::cout<<1+1;
-    std::cout<<"xin chao";
+    std::cout<<"xin chào";
 }
