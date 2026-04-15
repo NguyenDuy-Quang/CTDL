@@ -30,10 +30,7 @@ struct DaThucMang {
 DaThucMang congMang(DaThucMang dt1, DaThucMang dt2) {
     DaThucMang tong;
     tong.khoiTao();
-    
-    // Bậc của đa thức tổng sẽ là bậc lớn nhất giữa dt1 và dt2
     tong.bac = (dt1.bac > dt2.bac) ? dt1.bac : dt2.bac;
-    
     for (int i = 0; i <= tong.bac; i++) {
         tong.heso[i] = dt1.heso[i] + dt2.heso[i];
     }
