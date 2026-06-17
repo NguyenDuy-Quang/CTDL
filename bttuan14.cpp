@@ -117,7 +117,7 @@ void BFS_LinkedList(int startVertex) {
 }
 int main() {
     int start = 0; // Đỉnh 0 là Hà nội
-    cout << "--- KET QUA DO THI GIAO THONG (DA CHUAN HOA) ---" << endl << endl;
+    cout << "KET QUA DO THI GIAO THONG (DA CHUAN HOA)" << endl << endl;
     BFS_Array(start);
     cout << endl;
     BFS_LinkedList(start);
