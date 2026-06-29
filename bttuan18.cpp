@@ -141,4 +141,5 @@ int main() {
     prim(10, adj);
     kruskal();
     return 0;
+    
 }
